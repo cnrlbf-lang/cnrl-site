@@ -3,54 +3,279 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>CNRL - Révolution Linguistique du Burkina Faso</title>
-    <style>
-        /* Styles basiques pour que la page s'affiche tout de suite */
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: Arial, sans-serif; background: #0a1a1a; color: #f5f0e8; line-height: 1.6; }
-        .container { max-width: 1000px; margin: 0 auto; padding: 40px 20px; text-align: center; }
-        h1 { font-size: 48px; color: #e8b830; margin-bottom: 20px; }
-        h2 { font-size: 28px; color: #e8b830; margin: 30px 0 10px; }
-        p { font-size: 18px; color: #c8c0b0; margin-bottom: 16px; }
-        .badge { display: inline-block; background: rgba(232,184,48,0.2); color: #e8b830; padding: 4px 16px; border-radius: 20px; font-size: 14px; }
-        .btn { display: inline-block; background: #e8b830; color: #0a1a1a; padding: 14px 40px; border-radius: 40px; font-weight: bold; text-decoration: none; margin-top: 20px; }
-        .btn:hover { background: #d4a820; }
-        .footer { margin-top: 60px; padding-top: 20px; border-top: 1px solid rgba(255,255,255,0.1); font-size: 14px; color: #6a6a5a; }
-        .devise { font-size: 20px; font-style: italic; color: #e8b830; margin: 30px 0; }
-        .slogan { font-size: 18px; color: #b8ad9a; }
-    </style>
+    <title>CNRL - Coordination Nationale de la Révolution Linguistique</title>
+    <meta name="description" content="Site officiel de la Coordination Nationale de la Révolution Linguistique (CNRL) - Promotion du Gomd-Peogo, Syllabaire Romba."/>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <span class="badge">✦ Initiative Présidentielle</span>
-        <h1>CNRL</h1>
-        <p style="font-size: 22px; color: #e8b830; font-weight: bold;">Coordination Nationale de la Révolution Linguistique</p>
-        <p style="font-size: 20px;">Gomd-Peogo · Rombagraphe · Syllabaire Romba</p>
 
-        <div class="devise">« Une langue qui s'écrit est une langue qui vit, se transmet et construit l'avenir de son peuple. »</div>
-        <div class="slogan">« Notre écriture, notre identité ; nos langues, notre souveraineté. »</div>
-
-        <h2>📖 Le Panier de la Parole</h2>
-        <p>Le <strong>Gomd-Peogo</strong> est le premier système d'écriture syllabique conçu pour transcrire fidèlement les langues à tons du Burkina Faso et d'Afrique.</p>
-
-        <h2>🏛️ Notre Organisation</h2>
-        <p style="font-size: 16px;">
-            <strong>17</strong> Régions · <strong>47</strong> Provinces · <strong>350</strong> Départements<br>
-            Apprentissage en <strong>3 semaines</strong>
-        </p>
-
-        <h2>📞 Contact</h2>
-        <p><strong>Fondateur :</strong> Lassané ROMBA</p>
-        <p><strong>Téléphone :</strong> (+226) 75 97 35 09</p>
-        <p><strong>Email :</strong> rombalassan@gmail.com</p>
-        <p><strong>Siège :</strong> Ouagadougou, Burkina Faso</p>
-
-        <a href="#" class="btn">🚀 Rejoindre la Révolution</a>
-
-        <div class="footer">
-            &copy; 2026 CNRL — Tous droits réservés.
+    <!-- ===== HEADER ===== -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <span class="logo-icon">✦</span>
+                <div>
+                    <span class="logo-title">CNRL</span>
+                    <span class="logo-sub">Révolution Linguistique</span>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Accueil</a></li>
+                    <li><a href="#gomd-peogo">Gomd-Peogo</a></li>
+                    <li><a href="#organigramme">Organigramme</a></li>
+                    <li><a href="#plan">Plan de déploiement</a></li>
+                    <li><a href="charte.html">Charte &amp; Statuts</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="menu-toggle" aria-label="Menu">&#9776;</button>
         </div>
-    </div>
+    </header>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <span class="hero-badge">✦ Initiative Présidentielle</span>
+                <h1>La Révolution Linguistique du Burkina Faso</h1>
+                <p class="hero-sub">Le <strong>Gomd-Peogo</strong> — également appelé <strong>Rombagraphe</strong> ou <strong>Syllabaire Romba</strong> — est le premier système d'écriture syllabique conçu pour transcrire fidèlement les langues à tons du Burkina Faso et d'Afrique.</p>
+                <div class="hero-buttons">
+                    <a href="#gomd-peogo" class="btn btn-primary">Découvrir l'écriture</a>
+                    <a href="#plan" class="btn btn-secondary">Plan de déploiement</a>
+                </div>
+                <div class="hero-stats">
+                    <div><span>17</span> Régions</div>
+                    <div><span>47</span> Provinces</div>
+                    <div><span>350</span> Départements</div>
+                    <div><span>3</span> semaines d'apprentissage</div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-card">
+                    <div class="hero-symbol">𖤍</div>
+                    <p class="hero-symbol-text"><em>« Le Panier de la Parole »</em></p>
+                    <div class="hero-devise">« Une langue qui s'écrit est une langue qui vit, se transmet et construit l'avenir de son peuple. »</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== DEVISE / SLOGAN ===== -->
+    <section class="devise-band">
+        <div class="container">
+            <p class="slogan">« Notre écriture, notre identité ; nos langues, notre souveraineté. »</p>
+            <p class="vision">Faire du Gomd-Peogo un instrument de souveraineté linguistique, de transmission du savoir et de renaissance culturelle pour le Burkina Faso et l'Afrique.</p>
+        </div>
+    </section>
+
+    <!-- ===== SECTION : GOMD-PEOGO ===== -->
+    <section id="gomd-peogo" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Le système d'écriture</span>
+                <h2>Qu'est-ce que le Gomd-Peogo ?</h2>
+                <p>Un syllabaire africain authentique, conçu à partir des objets et formes de la vie quotidienne burkinabè.</p>
+            </div>
+
+            <div class="grid-2">
+                <div>
+                    <h3>Un syllabaire, pas un alphabet</h3>
+                    <p>Chaque signe représente une <strong>syllabe complète</strong> (consonne + voyelle + ton), ce qui rend l'écriture plus naturelle et rapide pour les langues africaines.</p>
+                    <ul class="check-list">
+                        <li>17 consonnes de base</li>
+                        <li>5 voyelles indiquées par des diacritiques</li>
+                        <li>Transcription fidèle des tons</li>
+                        <li>Apprentissage en 3 semaines</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Une écriture ancrée dans la culture</h3>
+                    <p>Chaque signe est inspiré d'<strong>objets culturels burkinabè</strong> : cases, outils agricoles, formes naturelles. Un lien organique entre l'écriture et le peuple.</p>
+                    <div class="feature-cards">
+                        <div class="feature-mini">✦ Cases</div>
+                        <div class="feature-mini">✦ Outils</div>
+                        <div class="feature-mini">✦ Nature</div>
+                        <div class="feature-mini">✦ Culture</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="comparison-table">
+                <h3>Comparaison : Alphabet Latin vs Gomd-Peogo</h3>
+                <table>
+                    <thead>
+                        <tr><th>Critère</th><th>Alphabet Latin</th><th>Gomd-Peogo</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Type</td><td>Alphabétique (lettres)</td><td><strong>Syllabaire (syllabes)</strong></td></tr>
+                        <tr><td>Unité de base</td><td>Lettre (son isolé)</td><td><strong>Syllabe complète</strong></td></tr>
+                        <tr><td>Tons</td><td>Non retranscrits</td><td><strong>Intégrés dans les signes</strong></td></tr>
+                        <tr><td>Lien culturel</td><td>Aucun avec l'Afrique</td><td><strong>Objets burkinabè quotidiens</strong></td></tr>
+                        <tr><td>Apprentissage</td><td>Plusieurs mois</td><td><strong>3 semaines</strong></td></tr>
+                        <tr><td>Origine</td><td>Europe coloniale</td><td><strong>Burkina Faso — Afrique</strong></td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SECTION : ORGANIGRAMME ===== -->
+    <section id="organigramme" class="section section-alt">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Notre structure</span>
+                <h2>Organigramme de la CNRL</h2>
+                <p>Une organisation pyramidale calquée sur la carte administrative du Burkina Faso.</p>
+            </div>
+
+            <div class="org-pyramid">
+                <div class="org-level">
+                    <div class="org-box level-1">
+                        <span class="org-label">Niveau 1</span>
+                        <strong>Coordination Nationale</strong>
+                        <span class="org-pers">Lassané ROMBA — Coordinateur Général</span>
+                        <span class="org-detail">Bureau Exécutif (5 membres)</span>
+                    </div>
+                </div>
+                <div class="org-level">
+                    <div class="org-box level-2">
+                        <span class="org-label">Niveau 2</span>
+                        <strong>Coordinatrices &amp; Coordinateurs Régionaux</strong>
+                        <span class="org-count">17</span>
+                        <span class="org-detail">1 par région</span>
+                    </div>
+                </div>
+                <div class="org-level">
+                    <div class="org-box level-3">
+                        <span class="org-label">Niveau 3</span>
+                        <strong>Coordinatrices &amp; Coordinateurs Provinciaux</strong>
+                        <span class="org-count">47</span>
+                        <span class="org-detail">1 par province</span>
+                    </div>
+                </div>
+                <div class="org-level">
+                    <div class="org-box level-4">
+                        <span class="org-label">Niveau 4</span>
+                        <strong>Coordinatrices &amp; Coordinateurs Départementaux</strong>
+                        <span class="org-count">350</span>
+                        <span class="org-detail">1 par département</span>
+                    </div>
+                </div>
+                <div class="org-level">
+                    <div class="org-box level-5">
+                        <span class="org-label">Niveau 5</span>
+                        <strong>Animateurs Communaux &amp; Formateurs</strong>
+                        <span class="org-detail">Présents dans toutes les communes</span>
+                    </div>
+                </div>
+                <div class="org-level">
+                    <div class="org-box level-6">
+                        <span class="org-label">Niveau 6</span>
+                        <strong>Relais Communautaires &amp; Moniteurs Locaux</strong>
+                        <span class="org-detail">Alphabétisation dans les villages et quartiers</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SECTION : PLAN DE DÉPLOIEMENT ===== -->
+    <section id="plan" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Feuille de route</span>
+                <h2>Plan de déploiement national</h2>
+                <p>Une stratégie sur 3 ans pour couvrir l'ensemble du territoire.</p>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-year">Année 1</div>
+                    <h4>Maillage institutionnel</h4>
+                    <ul>
+                        <li>Installation des 17 coordinations régionales</li>
+                        <li>Mise en place des 47 coordinations provinciales</li>
+                        <li>Désignation des 350 coordinateurs départementaux</li>
+                        <li>Ouverture des premiers centres pilotes</li>
+                    </ul>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">Année 2</div>
+                    <h4>Massification et standardisation</h4>
+                    <ul>
+                        <li>Formation de milliers d'apprenants (effet boule de neige)</li>
+                        <li>Édition et distribution des manuels officiels</li>
+                        <li>Premiers examens nationaux de certification</li>
+                    </ul>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">Année 3</div>
+                    <h4>Institutionnalisation</h4>
+                    <ul>
+                        <li>Ancrage du Gomd-Peogo dans toutes les régions</li>
+                        <li>Intégration dans des écoles pilotes</li>
+                        <li>Reconnaissance officielle par l'État</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SECTION : PUBLIC PRIORITAIRE ===== -->
+    <section class="section section-alt">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Publics cibles</span>
+                <h2>Pour qui est conçu le Gomd-Peogo ?</h2>
+            </div>
+            <div class="grid-4">
+                <div class="target-card">🎓 Élèves et étudiants</div>
+                <div class="target-card">👩‍🏫 Enseignants et fonctionnaires</div>
+                <div class="target-card">👑 Leaders coutumiers et religieux</div>
+                <div class="target-card">👩‍🌾 Associations féminines</div>
+                <div class="target-card">🧑‍🌾 Jeunes et commerçants</div>
+                <div class="target-card">📰 Journalistes et médias</div>
+                <div class="target-card">🎨 Artisans et artistes</div>
+                <div class="target-card">🌍 Tous les Burkinabè</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <h4>CNRL</h4>
+                    <p>Coordination Nationale de la Révolution Linguistique</p>
+                    <p><strong>Gomd-Peogo · Rombagraphe · Syllabaire Romba</strong></p>
+                </div>
+                <div>
+                    <h4>Liens utiles</h4>
+                    <ul>
+                        <li><a href="charte.html">Charte et Règlement</a></li>
+                        <li><a href="#organigramme">Organigramme</a></li>
+                        <li><a href="#plan">Plan de déploiement</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Contact</h4>
+                    <p><strong>Fondateur :</strong> Lassané ROMBA</p>
+                    <p><strong>Téléphone :</strong> (+226) 75 97 35 09</p>
+                    <p><strong>Email :</strong> rombalassan@gmail.com</p>
+                    <p><strong>Siège :</strong> Ouagadougou, Burkina Faso</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 CNRL — Tous droits réservés. <br class="mobile-break"/>« Une langue qui s'écrit est une langue qui vit. »</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
 </body>
 </html>
-"Ajout de la page d'accueil"
+"Mise à jour complète de la page d'accueil"
